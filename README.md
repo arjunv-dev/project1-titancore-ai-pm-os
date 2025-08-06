@@ -216,6 +216,19 @@ Lazy loading for UI components
 
 Microservice scaling via Docker
 
-Efficient YAML-based config parsing
+Efficient YAML-based config parsing   +---------------------+       +---------------------+       +---------------------+
+|     Frontend UI     | <---> |  API Gateway (Node) | <---> |  Microservices (PM) |
++---------------------+       +---------------------+       +---------------------+
+        |                          |                                |
+        v                          v                                v
++----------------+       +----------------+              +------------------------+
+|  WebSocket Hub |       | Auth Service   |              | AI Insight Engine      |
++----------------+       +----------------+              +------------------------+
+        |                          |                                |
+        v                          v                                v
++----------------+       +----------------+              +------------------------+
+| Docker Runtime |       | YAML Config    |              | BI Dashboard Service   |
++----------------+       +----------------+              +------------------------+
+
 
 WebSocket-based real-time updates
