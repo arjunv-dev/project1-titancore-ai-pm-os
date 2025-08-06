@@ -1,101 +1,101 @@
-🚀 TitanCore AI PM OS
-An AI-powered Operating System tailored for Product Managers, enabling real-time strategy execution, task orchestration, and intelligent decision-making through dynamic BI dashboards. Built for scale, speed, and precision—adopted by 100+ PMs for high-stakes product launches.
+🚀 TitanCore AI PM OS Overview
+An AI-powered Operating System designed for Product Managers to execute strategy in real time, orchestrate tasks, and make intelligent decisions through dynamic BI dashboards. Built with modular microservices, adaptive UI, and secure containerized environments.
 
-1. 🌟 Features
-Real-time OKR & KPI tracking
+🌟 Features
+Real-Time Strategy Execution: Aligns product goals with execution via live OKR/KPI tracking.
 
-AI-driven product lifecycle automation
+AI Insight Engine: Predicts outcomes and suggests strategic pivots.
 
-Dynamic BI dashboards with actionable insights
+Task Orchestration: Enables seamless collaboration across distributed teams.
 
-Task orchestration with collaborative modules
+BI Dashboards: Visualize metrics, trends, and performance indicators.
 
-Adaptive UI for contextual decision-making
+Lifecycle Automation: Automates product development stages.
 
-2. 🛡️ Core Security Features
-Role-based access control (RBAC)
+🛡️ Core Security Features
+RBAC (Role-Based Access Control): Granular access control for users.
 
-Encrypted data pipelines (TLS/SSL)
+TLS/SSL Encryption: Secures all data in transit.
 
-Secure container isolation
+Audit Logging: Tracks user actions and system events.
 
-Audit logging and traceability
+Container Isolation: Prevents cross-service vulnerabilities.
 
-Configurable security policies via YAML
+YAML Security Policies: Configurable rules for runtime behavior.
 
-3. 🔍 Advanced Capabilities
-AI Insight Engine for predictive analytics
+🔍 Advanced Capabilities
+Predictive Analytics: AI forecasts product performance.
 
-Real-time collaboration across distributed teams
+Anomaly Detection: Flags unusual patterns in metrics or behavior.
 
-Automated product strategy execution
+Smart Alerts: Context-aware notifications for PMs.
 
-Smart alerts and anomaly detection
+Plug-and-Play Modules: Easily extendable architecture.
 
-Modular plug-and-play microservices
+Live Collaboration: Real-time updates and sync across teams.
 
-4. 🎨 User Interface
-Responsive, adaptive UI built with HTML, CSS, and JavaScript
+🎨 User Interface
+Adaptive UI: Context-aware dashboards tailored to PM workflows.
 
-Context-aware dashboards for PM workflows
+Responsive Design: Works across devices and screen sizes.
 
-Real-time data visualization with KPI/OKR overlays
+Real-Time Visualization: Live updates of KPIs and OKRs.
 
-Drag-and-drop task orchestration
+Drag-and-Drop Task Management: Intuitive orchestration.
 
-Dark/light mode support
+Dark/Light Mode: User preference support.
 
-5. 🧰 Technology Stack
+🧰 Technology Stack
 Layer	Technologies Used
 Frontend	HTML, CSS, JavaScript
 Backend	Node.js, TypeScript
 Containerization	Docker
 Configuration	YAML
 Deployment	Microservices Architecture
-6. 🖥️ Frontend
-Built with vanilla JS for performance
+🖥️ Frontend
+Built with HTML, CSS, and JavaScript.
 
-Modular components for dashboard, alerts, and settings
+Modular components for dashboards, alerts, and settings.
 
-Real-time updates via WebSockets
+WebSocket integration for real-time updates.
 
-Lightweight DOM manipulation for speed
+Lightweight rendering for performance.
 
-7. 🧠 Backend (Conceptual)
-Node.js microservices for lifecycle automation
+🧠 Backend (Conceptual)
+Node.js microservices for each product management function.
 
-TypeScript for type safety and scalability
+TypeScript for scalable, type-safe development.
 
-RESTful APIs for frontend communication
+REST APIs for frontend communication.
 
-AI engines for strategy prediction and insight generation
+AI engines for strategic insights and forecasting.
 
-8. 🚀 Getting Started
+🚀 Getting Started
 bash
 git clone https://github.com/yourusername/titan-core-ai-pm-os.git
 cd titan-core-ai-pm-os
-9. 📦 Prerequisites
+📦 Prerequisites
 Node.js v18+
 
 Docker
 
 Git
 
-Basic understanding of YAML
+Basic YAML knowledge
 
-10. 🛠️ Installation
+🛠️ Installation
 bash
 npm install
-11. 🐳 Docker Deployment
+🐳 Docker Deployment
 bash
 docker-compose up --build
-12. 📚 Features Overview
+📚 Features Overview
 Feature	Description
-OKR Tracking	Real-time alignment with strategic goals
-Insight Engine	Predictive analytics for product decisions
-Collaboration Module	Task orchestration across teams
-BI Dashboards	Dynamic visualizations of KPIs and metrics
-13. 🔐 Dashboard
+OKR Tracking	Aligns execution with strategic goals
+Insight Engine	Predicts outcomes and suggests actions
+Collaboration Module	Enables team-wide task orchestration
+BI Dashboards	Visualizes KPIs, metrics, and trends
+🔐 Dashboard
 Secure login with RBAC
 
 Customizable widgets
@@ -104,131 +104,121 @@ KPI/OKR overlays
 
 AI-driven recommendations
 
-14. 🚨 Threat Detection
-Real-time anomaly detection
+🚨 Threat Detection
+AI-based anomaly detection
 
-AI-based behavioral analysis
+Behavioral pattern analysis
 
 Alert escalation workflows
 
-15. 📊 Packet Analysis
-Deep packet inspection for data integrity
+📊 Packet Analysis
+Deep packet inspection
 
 Network flow visualization
 
 Suspicious activity tagging
 
-16. 🔔 Alert Center
-Smart alerts with severity levels
+🔔 Alert Center
+Severity-based smart alerts
 
-Notification routing via email/webhooks
+Notification routing (email/webhooks)
 
 Alert history and resolution tracking
 
-17. 📋 Log Monitoring
+📋 Log Monitoring
 Centralized log aggregation
 
 Searchable audit trails
 
-YAML-configurable retention policies
+YAML-configurable retention
 
-18. 🌐 Network Monitor
+🌐 Network Monitor
 Live traffic visualization
 
 Bandwidth usage tracking
 
 Endpoint health status
 
-19. ⚙️ Settings
+⚙️ Settings
 YAML-based configuration
 
-Role management
+Role and permission management
 
 Feature toggles
 
 Security policy editor
 
-20. 🏗️ Architecture
-🔧 Architecture Flow Diagram
-+---------------------+       +---------------------+       +---------------------+
-|     Frontend UI     | <---> |  API Gateway (Node) | <---> |  Microservices (PM) |
-+---------------------+       +---------------------+       +---------------------+
-        |                          |                                |
-        v                          v                                v
-+----------------+       +----------------+              +------------------------+
-|  WebSocket Hub |       | Auth Service   |              | AI Insight Engine      |
-+----------------+       +----------------+              +------------------------+
-        |                          |                                |
-        v                          v                                v
-+----------------+       +----------------+              +------------------------+
-| Docker Runtime |       | YAML Config    |              | BI Dashboard Service   |
-+----------------+       +----------------+              +------------------------+
-21. 🧩 Frontend Architecture
+🏗️ Architecture
+System Flow
+Frontend UI communicates with API Gateway.
+
+API Gateway routes requests to:
+
+Auth Service for authentication
+
+Microservices for product lifecycle automation
+
+AI Insight Engine for predictions
+
+BI Dashboard Service for visualization
+
+All services run in Docker containers.
+
+Configuration and policies managed via YAML files.
+
+🧩 Frontend Architecture
+Stateless rendering
+
 Modular dashboard components
 
 Event-driven updates via WebSocket
 
-Stateless UI rendering
-
 Configurable via YAML
 
-22. 🧠 Backend Architecture (Conceptual)
-Microservices for each PM function (OKR, KPI, Strategy)
+🧠 Backend Architecture (Conceptual)
+Microservices for OKR, KPI, strategy, and collaboration
 
 AI engine for predictive insights
 
-REST APIs for frontend communication
+REST APIs for communication
 
-Docker containers for isolation and scalability
+Docker for isolation and scalability
 
-23. 🛡️ Security Features
-RBAC and JWT authentication
+🛡️ Security Features
+JWT-based authentication
 
-TLS encryption for all services
+TLS encryption
 
-Secure Docker containers
+Secure container boundaries
 
 Audit logs and traceability
 
-24. 🚨 Threat Detection
-AI-based anomaly detection
+🚨 Threat Detection
+AI monitors for anomalies
 
-Behavioral pattern analysis
+Behavioral analysis of user/system actions
 
-Alert escalation and resolution tracking
+Escalation and resolution tracking
 
-25. 🌐 Network Security
+🌐 Network Security
 Packet inspection
 
 Endpoint monitoring
 
 Bandwidth analytics
 
-26. 📡 Monitoring & Alerting
+📡 Monitoring & Alerting
 Real-time alerts via Alert Center
 
 Log aggregation and search
 
 KPI deviation notifications
 
-27. ⚡ Performance Optimizations
+⚡ Performance Optimizations
 Lazy loading for UI components
 
 Microservice scaling via Docker
 
-Efficient YAML-based config parsing   +---------------------+       +---------------------+       +---------------------+
-|     Frontend UI     | <---> |  API Gateway (Node) | <---> |  Microservices (PM) |
-+---------------------+       +---------------------+       +---------------------+
-        |                          |                                |
-        v                          v                                v
-+----------------+       +----------------+              +------------------------+
-|  WebSocket Hub |       | Auth Service   |              | AI Insight Engine      |
-+----------------+       +----------------+              +------------------------+
-        |                          |                                |
-        v                          v                                v
-+----------------+       +----------------+              +------------------------+
-| Docker Runtime |       | YAML Config    |              | BI Dashboard Service   |
-+----------------+       +----------------+              +------------------------+
-
+Efficient YAML parsing
 
 WebSocket-based real-time updates
