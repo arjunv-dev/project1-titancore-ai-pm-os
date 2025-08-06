@@ -1,51 +1,49 @@
 🚀 TitanCore AI PM OS
-TitanCore AI PM OS is a cutting-edge AI-powered Operating System tailored for Product Managers. It enables real-time execution of product strategy, intelligent decision-making, and seamless task orchestration through dynamic BI dashboards and collaborative modules.
+An AI-powered Operating System tailored for Product Managers, enabling real-time strategy execution, task orchestration, and intelligent decision-making through dynamic BI dashboards. Built for scale, speed, and precision—adopted by 100+ PMs for high-stakes product launches.
 
 1. 🌟 Features
-Real-time product strategy execution
+Real-time OKR & KPI tracking
 
-AI-driven decision support engine
+AI-driven product lifecycle automation
 
-Dynamic BI dashboards with OKR/KPI tracking
+Dynamic BI dashboards with actionable insights
 
-Product lifecycle automation
+Task orchestration with collaborative modules
 
-Real-time collaboration modules
-
-Modular architecture for scalability
+Adaptive UI for contextual decision-making
 
 2. 🛡️ Core Security Features
 Role-based access control (RBAC)
 
-Secure API communication via HTTPS
+Encrypted data pipelines (TLS/SSL)
 
-Encrypted data storage and transmission
+Secure container isolation
 
-Container isolation for microservices
+Audit logging and traceability
 
-Audit logging and session tracking
+Configurable security policies via YAML
 
 3. 🔍 Advanced Capabilities
-AI-powered insight engine for predictive analytics
+AI Insight Engine for predictive analytics
 
-Automated task orchestration across teams
+Real-time collaboration across distributed teams
 
-Adaptive dashboards based on user roles
+Automated product strategy execution
 
-Real-time OKR and KPI alignment
+Smart alerts and anomaly detection
 
-Smart notifications and alerts
+Modular plug-and-play microservices
 
 4. 🎨 User Interface
-Responsive and adaptive UI
+Responsive, adaptive UI built with HTML, CSS, and JavaScript
 
-Intuitive dashboard layout
+Context-aware dashboards for PM workflows
 
-Real-time data visualization
+Real-time data visualization with KPI/OKR overlays
 
-Customizable widgets and views
+Drag-and-drop task orchestration
 
-Seamless navigation across modules
+Dark/light mode support
 
 5. 🧰 Technology Stack
 Layer	Technologies Used
@@ -53,163 +51,171 @@ Frontend	HTML, CSS, JavaScript
 Backend	Node.js, TypeScript
 Containerization	Docker
 Configuration	YAML
+Deployment	Microservices Architecture
 6. 🖥️ Frontend
-Built with HTML, CSS, and JavaScript
+Built with vanilla JS for performance
 
-Responsive design for desktop and mobile
-
-Dynamic rendering of BI dashboards
+Modular components for dashboard, alerts, and settings
 
 Real-time updates via WebSockets
 
+Lightweight DOM manipulation for speed
+
 7. 🧠 Backend (Conceptual)
-Microservices architecture using Node.js and TypeScript
+Node.js microservices for lifecycle automation
 
-RESTful APIs for data exchange
+TypeScript for type safety and scalability
 
-AI engines for decision support
+RESTful APIs for frontend communication
 
-Real-time collaboration services
-
-Secure authentication and authorization
+AI engines for strategy prediction and insight generation
 
 8. 🚀 Getting Started
-Clone the repository and follow the setup instructions to get started with TitanCore AI PM OS.
-
 bash
 git clone https://github.com/yourusername/titan-core-ai-pm-os.git
 cd titan-core-ai-pm-os
-9. 📋 Prerequisites
-Node.js ≥ 18.x
+9. 📦 Prerequisites
+Node.js v18+
 
-Docker ≥ 24.x
+Docker
 
 Git
 
-Modern browser (Chrome, Edge, Firefox)
+Basic understanding of YAML
 
 10. 🛠️ Installation
-Install dependencies and build the project:
-
 bash
 npm install
-npm run build
 11. 🐳 Docker Deployment
-Run the system in a containerized environment:
-
 bash
 docker-compose up --build
-Ensure your docker-compose.yml is configured with the correct environment variables.
-
-12. 🧩 Features Overview
+12. 📚 Features Overview
 Feature	Description
-Product Strategy Engine	Executes strategic plans in real-time
-Insight Engine	AI-powered analytics and recommendations
-Collaboration Module	Enables team-wide task orchestration
-BI Dashboards	Visualize OKRs, KPIs, and performance metrics
+OKR Tracking	Real-time alignment with strategic goals
+Insight Engine	Predictive analytics for product decisions
+Collaboration Module	Task orchestration across teams
+BI Dashboards	Dynamic visualizations of KPIs and metrics
 13. 🔐 Dashboard
-Centralized control panel
+Secure login with RBAC
 
-Real-time metrics and visualizations
+Customizable widgets
 
-Customizable layout per user role
+KPI/OKR overlays
+
+AI-driven recommendations
 
 14. 🚨 Threat Detection
-Monitors for anomalies in system behavior
+Real-time anomaly detection
 
-AI-based pattern recognition
+AI-based behavioral analysis
 
-Alerts for suspicious activity
+Alert escalation workflows
 
 15. 📊 Packet Analysis
-Deep inspection of data packets
+Deep packet inspection for data integrity
 
-Identifies performance bottlenecks
+Network flow visualization
 
-Ensures secure data flow
+Suspicious activity tagging
 
 16. 🔔 Alert Center
-Real-time notifications
+Smart alerts with severity levels
 
-Severity-based alert categorization
+Notification routing via email/webhooks
 
-Actionable insights and recommendations
+Alert history and resolution tracking
 
 17. 📋 Log Monitoring
-Tracks system and user activity
+Centralized log aggregation
 
-Supports audit and compliance
+Searchable audit trails
 
-Real-time log streaming
+YAML-configurable retention policies
 
 18. 🌐 Network Monitor
-Visualizes service-to-service communication
+Live traffic visualization
 
-Detects latency and failures
+Bandwidth usage tracking
 
-Monitors bandwidth usage
+Endpoint health status
 
 19. ⚙️ Settings
-Configure user roles and permissions
+YAML-based configuration
 
-Customize dashboard views
+Role management
 
-Manage integrations and plugins
+Feature toggles
+
+Security policy editor
 
 20. 🏗️ Architecture
-TitanCore AI PM OS is built on a modular microservices architecture, enabling scalability, resilience, and rapid feature deployment.
-
+🔧 Architecture Flow Diagram
++---------------------+       +---------------------+       +---------------------+
+|     Frontend UI     | <---> |  API Gateway (Node) | <---> |  Microservices (PM) |
++---------------------+       +---------------------+       +---------------------+
+        |                          |                                |
+        v                          v                                v
++----------------+       +----------------+              +------------------------+
+|  WebSocket Hub |       | Auth Service   |              | AI Insight Engine      |
++----------------+       +----------------+              +------------------------+
+        |                          |                                |
+        v                          v                                v
++----------------+       +----------------+              +------------------------+
+| Docker Runtime |       | YAML Config    |              | BI Dashboard Service   |
++----------------+       +----------------+              +------------------------+
 21. 🧩 Frontend Architecture
-Component-based design
+Modular dashboard components
 
-Event-driven UI updates
+Event-driven updates via WebSocket
 
-State management via local storage and APIs
+Stateless UI rendering
+
+Configurable via YAML
 
 22. 🧠 Backend Architecture (Conceptual)
-Microservices for each core module
+Microservices for each PM function (OKR, KPI, Strategy)
 
-AI engines for insights and predictions
+AI engine for predictive insights
 
-Secure API gateway
+REST APIs for frontend communication
 
-Containerized services with Docker
+Docker containers for isolation and scalability
 
 23. 🛡️ Security Features
-End-to-end encryption
+RBAC and JWT authentication
 
-Role-based access control
+TLS encryption for all services
 
-Secure container boundaries
+Secure Docker containers
 
-Continuous vulnerability scanning
+Audit logs and traceability
 
-24. 🕵️ Threat Detection
+24. 🚨 Threat Detection
 AI-based anomaly detection
 
-Behavioral analytics
+Behavioral pattern analysis
 
-Real-time alerting and mitigation
+Alert escalation and resolution tracking
 
 25. 🌐 Network Security
-Firewall rules for service isolation
+Packet inspection
 
-TLS for secure communication
+Endpoint monitoring
 
-Intrusion detection systems (IDS)
+Bandwidth analytics
 
 26. 📡 Monitoring & Alerting
-Real-time system health checks
+Real-time alerts via Alert Center
 
-Custom alert rules
+Log aggregation and search
 
-Integration with external monitoring tools
+KPI deviation notifications
 
 27. ⚡ Performance Optimizations
 Lazy loading for UI components
 
-Efficient data caching
+Microservice scaling via Docker
 
-Asynchronous task execution
+Efficient YAML-based config parsing
 
-Container resource limits and scaling
+WebSocket-based real-time updates
