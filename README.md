@@ -149,6 +149,7 @@ KPI/OKR Overlays: Visualize progress in real time.
 AI Recommendations: Suggest actions based on data trends.
 
 🚨 THREAT DETECTION
+
 Security intelligence built-in:
 
 AI-Based Detection: Monitors for unusual activity.
@@ -158,6 +159,7 @@ Behavioral Analysis: Tracks user patterns for anomalies.
 Escalation Workflows: Routes alerts to appropriate teams.
 
 📊 PACKET ANALYSIS
+
 Network-level visibility:
 
 Deep Packet Inspection: Ensures data integrity.
@@ -167,6 +169,7 @@ Flow Visualization: Maps network traffic.
 Suspicious Tagging: Flags potential threats.
 
 🔔 ALERT CENTER
+
 Stay informed:
 
 Severity-Based Alerts: Prioritize critical issues.
@@ -176,6 +179,7 @@ Notification Routing: Send alerts via email or webhooks.
 History Tracking: View past alerts and resolutions.
 
 📋 LOG MONITORING
+
 Track everything:
 
 Centralized Logs: Aggregate logs from all services.
@@ -185,6 +189,7 @@ Searchable Trails: Find events quickly.
 Retention Policies: Manage log storage via YAML.
 
 🌐 NETWORK MONITOR
+
 Monitor infrastructure health:
 
 Live Traffic Visualization: See real-time network activity.
@@ -194,6 +199,7 @@ Bandwidth Tracking: Monitor usage trends.
 Endpoint Health: Check service availability.
 
 ⚙️ SETTINGS
+
 Configure everything:
 
 YAML-Based Configuration: Simple and readable.
@@ -205,7 +211,9 @@ Feature Toggles: Enable/disable modules.
 Security Editor: Customize policies.
 
 🏗️ ARCHITECTURE
+
 🔧 System Flow
+
 Frontend UI communicates with the API Gateway.
 
 API Gateway routes requests to:
@@ -223,6 +231,7 @@ All services run in Docker containers.
 Configuration and policies managed via YAML files.
 
 🧩 FRONTEND ARCHITECTURE
+
 Stateless Rendering: Improves performance.
 
 Modular Components: Easy to maintain and extend.
@@ -232,6 +241,7 @@ WebSocket Updates: Real-time data sync.
 YAML Configurable: UI behavior can be customized.
 
 🧠 BACKEND ARCHITECTURE (CONCEPTUAL)
+
 Microservices: Each function is isolated and scalable.
 
 AI Insight Engine: Centralized intelligence layer.
@@ -241,6 +251,7 @@ REST APIs: Standardized communication.
 Docker Isolation: Ensures security and portability.
 
 🛡️ SECURITY FEATURES
+
 JWT Authentication: Secure token-based access.
 
 TLS Encryption: Protects data in transit.
@@ -250,6 +261,7 @@ Container Boundaries: Prevents cross-service attacks.
 Audit Logs: Tracks every action for compliance.
 
 🚨 THREAT DETECTION
+
 AI Monitors: Constantly scan for anomalies.
 
 Behavioral Analysis: Understands user patterns.
@@ -257,6 +269,7 @@ Behavioral Analysis: Understands user patterns.
 Escalation Tracking: Ensures timely response.
 
 🌐 NETWORK SECURITY
+
 Packet Inspection: Deep analysis of data flows.
 
 Endpoint Monitoring: Tracks service health.
@@ -264,6 +277,7 @@ Endpoint Monitoring: Tracks service health.
 Bandwidth Analytics: Identifies usage spikes.
 
 📡 MONITORING & ALERTING
+
 Real-Time Alerts: Immediate feedback on issues.
 
 Log Aggregation: Centralized visibility.
@@ -271,6 +285,7 @@ Log Aggregation: Centralized visibility.
 KPI Notifications: Warns when metrics deviate.
 
 ⚡ PERFORMANCE OPTIMIZATIONS
+
 Lazy Loading: Speeds up UI rendering.
 
 Microservice Scaling: Auto-scale based on demand.
